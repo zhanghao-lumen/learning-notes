@@ -3,13 +3,9 @@
 当前网络环境：`github.com` 网页（443）被阻断，`api.github.com` 和 SSH 正常。
 所以「推代码」不受影响，但「改仓库设置」必须等能打开网页时再做。
 
-## 1. 改仓库名
+## 1. 改仓库名 ✅ 已完成（2026-10-24）
 
-`personal-blog` 这个名字已经和内容（学习笔记）不匹配了。
-
-- 位置：仓库页 → **Settings** → General → **Repository name**
-- 改成：`learning-notes`
-- 点 **Rename**。GitHub 会自动把旧地址重定向到新地址，本地 remote 不用改。
+`personal-blog` → **`learning-notes`**，本地 remote 已同步为新地址。
 
 ## 2. 补仓库信息
 
