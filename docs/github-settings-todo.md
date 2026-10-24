@@ -7,7 +7,7 @@
 
 `personal-blog` → **`learning-notes`**，本地 remote 已同步为新地址。
 
-## 2. 补仓库信息
+## 2. 补仓库信息 ✅ 已完成（2026-10-24）
 
 - 位置：仓库首页右侧 **About** 旁的齿轮
 - Description：`高校学习笔记：C / Python / 瑞萨 RA4M1`
@@ -18,7 +18,8 @@
 - 位置：**Settings** → Branches → **Add branch protection rule**
 - Branch name pattern：`main`
 - 勾选 **Require status checks to pass before merging**
-- 搜索并选中 `CI`
+- ⚠️ 不要勾 **Require a pull request before merging**，否则自己也没法直接 push 到 main
+- 搜索并选中 **`build`**（workflow 叫 CI，job id 是 build，GitHub 用的是 job 名）
 - 保存
 
 ## 4. （可选）删除归档标签
