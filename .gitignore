@@ -1,0 +1,13 @@
+# C语言编译产生的可执行文件
+*.o
+*.out
+main
+*.exe
+
+# VSCode临时文件
+.vscode/
+.DS_Store
+
+# 我们的构建产物
+build/
+__pycache__/
